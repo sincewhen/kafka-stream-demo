@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package fisher.kafka.streams.proto;
+
+message Rating {
+	string title = 1;
+    int32 release_year = 2;
+    double rating = 3;
+    string timestamp = 4;
+}

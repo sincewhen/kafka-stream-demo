@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package fisher.kafka.streams.proto;
+
+message MovieTicketSales {
+	string title = 1;
+	int32 release_year = 2;
+	int32 total_sales = 3;
+}
+

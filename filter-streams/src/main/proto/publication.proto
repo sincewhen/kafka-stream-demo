@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package fisher.kafka.streams.proto;
+
+message Publication {
+	string name = 1;
+	string title = 2;
+}

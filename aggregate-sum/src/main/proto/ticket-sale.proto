@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package fisher.kafka.streams.proto;
+
+message TicketSale {
+	string title = 1;
+	string sale_ts = 2;
+	int32 ticket_total_value = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+   
+package fisher.kafka.streams.proto;
+   
+message YearlyMovieFigures {
+    int32 release_year = 1;
+    int32 min_total_sales = 2;
+    int32 max_total_sales = 3;
+}
